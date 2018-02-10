@@ -18,3 +18,8 @@ type alias Player =
   , name : String
   , level : Int
   }
+
+type Route
+  = PlayersRoute
+  | PlayerRoute PlayerId
+  | NotFoundRoute
