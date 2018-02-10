@@ -8,5 +8,5 @@ server.use(jsonServer.defaults());
 const router = jsonServer.router("db.json");
 server.use(router);
 
-4onsole.log("Listening at 3000");
-server.listen(3000);
+console.log("Listening at 4000");
+server.listen(4000);
